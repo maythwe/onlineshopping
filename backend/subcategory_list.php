@@ -45,11 +45,11 @@ include 'dbconnect.php';
 	 						
 	 					 ?>
 	 					 <tr>
-	 					 	<td>1</td>
+	 					 	<td><?php echo $subcategory['id']; ?></td>
 	 					 	<td><?php echo $subcategory['name']; ?></td>
 
 	 					 	<td><a href="#" class="btn btn-outline-primary btn-sm">Detail</a>
-	 					 	<a href="#" class="btn btn-outline-warning btn-sm">Edit</a>
+	 					 	<a href="subcategory_edit.php?id=<?php echo $subcategory['id'] ?>" class="btn btn-outline-warning btn-sm">Edit</a>
 	 					 <a href="subcategory_delete.php?id=<?php echo $subcategory['id'] ?>"  class="btn btn-outline-danger btn-sm">Delete</a></td>
 
 	 					 </tr>
