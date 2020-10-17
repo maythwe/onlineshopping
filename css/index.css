@@ -1,0 +1,89 @@
+/*Navigation*/
+.menu{
+    background-color: #f8f9fa;
+    box-shadow: 0 10px 20px rgba(0,0,0,.3);  
+  }
+
+.menu .navbar-nav .nav-item .nav-link {
+  padding: 0 1rem;
+  font-size: 1rem;
+}
+
+
+/*Carousel*/
+.container-carousel{
+	margin-top: 100px;
+}
+div.img-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+}
+/*.slick{
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+}*/
+
+ 
+/*Items Hover*/
+/*.card_img {
+  position: relative;
+}
+
+.add_button {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  /*top: 50%;*/
+  /*left: 50%;
+  bottom: 0;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card_img:hover .image {
+  opacity: 0.3;
+}
+
+.card_img:hover .add_button {
+  opacity: 1;
+}
+
+.add_button:hover .fa-stack{
+    color: green;
+    transition: 0.1s;
+    font-size: 1.5rem;
+}
+
+*/
+/*Add to cart*/
+#count .p1[data-count]:after{
+  position:absolute;
+  right:10%;
+  top:8%;
+  content: attr(data-count);
+  font-size:70%;
+  padding:.2em;
+  border-radius:50%;
+  line-height:1em;
+  color: white;
+  background:rgba(255,0,0,.85);
+  text-align:center;
+  min-width: 1em;
+  font-weight:bold;
+}
+
+@media only screen and (min-width: 768px) {
+
+  #count{
+    font-size: 1.2rem;
+    margin-top: -0.5rem;
+  }
+  body{
+    background-color: red;
+  }

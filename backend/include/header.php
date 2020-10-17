@@ -71,6 +71,11 @@
             <span>Item_lists</span></a>
           </li>
           <li class="nav-item">
+          <a class="nav-link" href="order_list.php">
+            <i class="fas fa-fw fa-chart-area"></i>
+            <span>Order_lists</span></a>
+          </li>
+          <li class="nav-item">
           <a class="nav-link" href="brand_list.php">
             <i class="fas fa-fw fa-chart-area"></i>
             <span>Brand_lists</span></a>
